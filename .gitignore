@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.python-version
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Models & artifacts
+*.joblib
+*.pkl
+
+# Data logs
+monitoring/prediction_log.csv
+
+# IDE
+.idea/
+.DS_Store
